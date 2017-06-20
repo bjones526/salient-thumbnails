@@ -1,0 +1,23 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../style.css">
+<link rel="stylesheet" href="../lightbox2-master/dist/css/lightbox.css">
+</head>
+<body>
+	<p class="participant-message">You're done with the finding portion. The link below will take you to an article about Frank Porter Graham, which you should read at your own pace. When you've finished reading and are ready to move on to the next task, let the moderator know.
+		</br></br><a href="http://ncpedia.org/biography/graham-frank-porter">Read the article</a>
+		<div class="secret-link" style="visibility:hidden"><a href="CLM_full_5.html">next</a></div>
+	</p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="../logClicks.js"></script>
+
+<script>
+$(document).ready(function(){
+	$(".participant-message").click(function(event){
+		$(".secret-link").css("visibility","visible");
+	});
+});
+</script>
+</body>
+</html>

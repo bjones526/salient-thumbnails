@@ -1,0 +1,94 @@
+body{
+    background-color: #808080;
+}
+
+p{
+    font-size: 1.5rem;
+    padding: 0px;
+    margin: 0px;
+}
+
+div.img {
+    margin: 5px;
+    padding: 5px;
+    height: 277;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+div.img img {
+    display: inline;
+    margin: 5px;
+}
+
+div.img a:hover img {
+    border:1px solid #fff;
+}
+
+button {
+    background-color: yellow;
+    border-radius: 3px;
+    font-size: 1em;
+}
+
+#new_message{
+    color:#fff;
+}
+
+#new_message table{
+    color: #fff;
+    text-align: center;
+    margin:auto;
+}
+
+a.selected {
+  background-color:#1F75CC;
+  color:white;
+  z-index:100;
+}
+
+.messagepop {
+  display:none;
+  padding: 25px 25px 20px;
+}
+
+.messagepop p {
+  display: block;
+  margin-bottom: 3px;
+  padding-left: 15px;
+  text-indent: -15px;
+  color: fff;
+  font: sans-serif;
+}
+
+.messagepop table{
+   margin-left:auto;
+   margin-right:auto;
+}
+
+.messagepop p, .messagepop.div {
+  margin: 8px 0;
+  padding-bottom: 8px;
+}
+
+table tr td p{
+  color:#fff;
+}
+
+.participant-message {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  text-align: center;
+  display: block;
+  color: #fff;
+  background-color:  #404040;
+  padding: 1em;
+  font-size: 1.5em;
+}
+
+.participant-message a{
+  color:  #6666ff;
+}
